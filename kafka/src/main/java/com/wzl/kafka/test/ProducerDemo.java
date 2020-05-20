@@ -1,12 +1,10 @@
 package com.wzl.kafka.test;
 
-import org.apache.kafka.clients.producer.KafkaProducer;
-import org.apache.kafka.clients.producer.Producer;
-import org.apache.kafka.clients.producer.ProducerConfig;
-import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
+import java.util.concurrent.Future;
 
 public class ProducerDemo {
 
@@ -28,7 +26,11 @@ public class ProducerDemo {
         try {
             producer = new KafkaProducer<String, String>(properties);
 
-            producer.send(new ProducerRecord<String, String>("hello_topic", "这是一条秘闻"));
+            Future<RecordMetadata> send = producer.send(new ProducerRecord<String, String>("hello_topic", "这是一条秘闻"));
+            RecordMetadata recordMetadata = send.get();
+            System.out.println("Topic:"+recordMetadata.topic()+"\n"+
+                                "partition:"+recordMetadata.partition()+"\n"+
+                                "offset:"+recordMetadata.offset());
 
         } catch (Exception e) {
             e.printStackTrace();
