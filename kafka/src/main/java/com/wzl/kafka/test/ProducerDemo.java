@@ -24,14 +24,14 @@ public class ProducerDemo {
         Producer<String, String> producer = null;
 
         try {
+            //同步发送消息
             producer = new KafkaProducer<String, String>(properties);
-
             Future<RecordMetadata> send = producer.send(new ProducerRecord<String, String>("hello_topic", "这是一条秘闻"));
             RecordMetadata recordMetadata = send.get();
             System.out.println("Topic:"+recordMetadata.topic()+"\n"+
                                 "partition:"+recordMetadata.partition()+"\n"+
                                 "offset:"+recordMetadata.offset());
-
+            //TODO  异步发送消息
         } catch (Exception e) {
             e.printStackTrace();
 
