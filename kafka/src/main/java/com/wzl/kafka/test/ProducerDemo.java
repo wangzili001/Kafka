@@ -12,7 +12,8 @@ public class ProducerDemo {
 
     public static void main(String[] args) {
         Properties properties = new Properties();
-        properties.put("bootstrap.servers", "hadoop1:9092");
+//        properties.put("bootstrap.servers", "hadoop1:9092");
+        properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"hadoop1:9092");
         properties.put("acks", "all");
         properties.put("retries", 0);
         properties.put("batch.size", 16384);
