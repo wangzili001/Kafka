@@ -1,15 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2db77d3d-7493-4d5f-94e3-c8b3b4191230" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/com/wzl/kafka/KafkaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/test/java/com/wzl/kafka/KafkaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/wzl/kafka/CustomerProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/classes/com/wzl/kafka/CustomerProducer.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="4" />
     <option name="width" value="1370" />
     <option name="height" value="1019" />
   </component>
+  <component name="ProjectId" id="1cAyZ886MEgsQTHCHB4Z2s5ysfY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2db77d3d-7493-4d5f-94e3-c8b3b4191230" name="Default Changelist" comment="" />
+      <created>1589985744272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589985744272</updated>
+      <workItem from="1589985745489" duration="248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="567" y="406" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589985843339">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="567" y="406" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589985843339" />
+    <state x="95" y="211" key="new project wizard" timestamp="1589985935027">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="95" y="211" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1589985935027" />
   </component>
 </project>
