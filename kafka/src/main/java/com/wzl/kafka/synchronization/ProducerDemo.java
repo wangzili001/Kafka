@@ -1,4 +1,4 @@
-package com.wzl.kafka.test;
+package com.wzl.kafka.synchronization;
 
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -6,6 +6,9 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 import java.util.concurrent.Future;
 
+/**
+ * 不带回调函数的API
+ */
 public class ProducerDemo {
 
     public static void main(String[] args) {
@@ -34,7 +37,6 @@ public class ProducerDemo {
             //TODO  异步发送消息
         } catch (Exception e) {
             e.printStackTrace();
-
         } finally {
             producer.close();
         }
